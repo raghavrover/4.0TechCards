@@ -1,0 +1,61 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+.list-item {
+  background-color: #ffffff;
+  border-radius: 26px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: 460px;
+}
+
+.tech-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  color: #171f46;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.image {
+  width: 40px;
+  align-self: flex-end;
+}
+
+@media (min-width: 992px) {
+  .list-item {
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+}
